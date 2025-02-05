@@ -1,0 +1,14 @@
+name: flyboots
+version: "${version}"
+main: com.spectrasonic.flyboots.Main
+api-version: "1.21"
+authors: [Spectrasonic]
+commands:
+    flyboots:
+        description: Flyboots command
+        usage: /flyboots [player]
+        permission: flyboots.flyboots
+permissions:
+    flyboots.flyboots:
+        description: Gives access to flyboots command
+        default: op
